@@ -1,0 +1,95 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header {
+
+	background-image: url(learning2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.logo img {
+
+	width: 100px;
+	height: auto;
+	float: left;
+}
+
+.main-nav {
+
+	float: right;
+	list-style: none;
+}
+
+.main-nav li {
+
+	display: inline-block;
+	width: 100px;
+	margin-top: 350px;
+}
+
+.main-nav li a {
+
+	color: white;
+	font-family: "robot" sans-serif;
+	font-size: 20px;
+	padding: 5px;
+
+}
+
+.main-nav li.active a {
+	
+	background-color: orange;
+	border: 1px solid white;
+}
+
+.main-nav li a:hover { 
+
+	border: 1px solid white;
+	background-color: orange;
+
+}
+
+.welcome {
+
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+}
+
+.button {
+
+	margin-top: 200px;
+	margin-left: 300px;
+
+}
+
+.btn {
+
+	border: 1px solid white;
+	color: white;
+	font-size: 15px;
+	
+
+}
+
+.btn-one {
+	background-color: darkorange;
+	font-family: sans-serif;
+
+}
+
+.btn-two :hover {
+
+	font-family: sans-serif;
+	background-color: green;
+}
+
